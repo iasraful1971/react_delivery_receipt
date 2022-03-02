@@ -1,0 +1,44 @@
+.row-header {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  padding: 0 20px;
+  box-shadow: 0 50px 100px -20px hsl(240deg 5% 82% / 25%),
+    0 30px 60px -30px hsl(0deg 12% 84% / 30%);
+}
+.row-header .col-md-4 {
+  width: 100%;
+  margin-top: 20px;
+}
+.row-header .col-md-4 h2 {
+  font-weight: bold;
+  font-size: 25px;
+}
+.row-header .col-md-4 img {
+  width: 50%;
+}
+.row-header .col-md-4 p {
+  color: #555;
+  font-size: 15px;
+}
+
+.row-header .col-md-4 h6 {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.row-header .col-md-4 address {
+  font-weight: 600;
+}
+
+.flex-end {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: end;
+}
+.flex-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

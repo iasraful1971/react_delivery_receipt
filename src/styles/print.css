@@ -1,0 +1,39 @@
+.print-size {
+  margin: 0 10px;
+  background-image: url(../images/et.jfif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 60%;
+}
+@media screen and (max-width: 992px) {
+  .print-size {
+    margin: 0 10px;
+  }
+}
+.info-text p {
+  font-weight: 600;
+  font-size: 17px;
+  z-index: 999;
+  overflow: hidden;
+}
+.info-text span {
+  font-weight: 500;
+  text-transform: capitalize;
+  font-size: 16px;
+}
+.info-title {
+  font-size: 22px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+.information__container {
+  margin: 0 20px;
+}
+
+.sign {
+  width: 50%;
+  margin-top: -60px;
+  margin-left: -30px;
+  overflow: hidden;
+  z-index: 2;
+}

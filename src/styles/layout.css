@@ -1,0 +1,10 @@
+/* layout */
+
+.layout-container {
+  margin: 0px 180px;
+}
+@media screen and (max-width: 992px) {
+  .layout-container {
+    margin: 0px 20px;
+  }
+}

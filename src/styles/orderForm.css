@@ -1,0 +1,38 @@
+.scroll-text {
+  font-weight: 500;
+  font-size: 20px;
+  color: #fa7748;
+  font-weight: bold;
+}
+.order-text {
+  margin: 10px 0;
+  font-weight: bold;
+}
+.order {
+  margin: 0 20px;
+}
+.form-control {
+  box-shadow: none;
+  margin-top: 15px !important;
+}
+.form-control:focus {
+  outline: none;
+  box-shadow: none;
+}
+.submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 0;
+}
+.submit button {
+  border: none;
+  outline: none;
+  background-color: blueviolet;
+  color: aliceblue;
+  padding: 10px 50px;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 5px;
+}

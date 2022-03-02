@@ -1,0 +1,11 @@
+.navbar-container {
+  margin: 10px 0;
+}
+.navbar-container ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: end;
+}
+.navbar-container ul li {
+  margin-right: 20px;
+}
