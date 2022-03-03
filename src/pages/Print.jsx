@@ -31,6 +31,12 @@ const Print = () => {
     getData();
   }, []);
 
+  let quantity = parseFloat(orderData?.userData?.productQuantity);
+  let price = parseFloat(orderData?.userData?.price)
+  let shipping = parseFloat(orderData?.userData?.shipping)
+
+  const calculte =  ((price + shipping) * quantity) ;
+
   if(loading){
     return <Spinner/>
   }
@@ -141,9 +147,12 @@ const Print = () => {
               <div className="col-md-4 info-text">
                 <p>
                   Total:{" "}
-                  {parseFloat(
-                    orderData?.userData?.price + orderData?.userData?.shipping
-                  )}
+                  {
+                   calculte
+                  }
+
+
+
                 </p>
               </div>
             </div>
